@@ -1,0 +1,99 @@
+body {
+    background-color: #141414;
+}
+
+.Titulo {
+    padding: 7px;
+    color: rgb(224, 132, 10);
+    text-shadow: 0 0 1px #f2f2f2;
+    font-size: 20px;
+}
+
+.Subtitulo {
+    padding: 7px;
+    color: #f2f2f2;
+    text-shadow: 0 0 1px #f2f2f2;
+    font-size: 25px;
+}
+
+h2 {
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.Image {
+    display: block;
+    margin: auto;
+    object-fit: contain;
+    height: 400px;
+    width: 400px;
+}
+
+.Background {
+    padding: 30px;
+    background-color: #333;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(75, 73, 22);
+    transition: transform 0.3s ease-in-out;
+}
+
+.Builds {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.37);
+    box-shadow: 0 0 15px rgb(122, 116, 116);
+    text-align: center; 
+}
+
+
+.Perk {
+    display: inline-block;
+    margin: auto; 
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+footer {
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+image {
+    display: block;
+    margin: auto;
+    object-fit: contain;
+    height: 100%;
+}
+
+section {
+    padding: auto;
+    background-color: #333;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(75, 73, 22);
+    transition: transform 0.3s ease-in-out;
+}
+
+.Recuadro {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+.Recuadro:hover {
+    color: black;
+    border: 1px solid #000000
+}
+
+a {
+    text-decoration: none;
+}

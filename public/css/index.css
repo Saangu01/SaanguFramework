@@ -1,0 +1,135 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #F4F4F4;
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/024/538/828/original/pixel-jeff-clipc-s.gif?1582740521');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #000121;
+    color: #F4F4F4;
+    text-align: center;
+    font-weight: bolder;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100px;
+    border-radius: 100px;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px;
+}
+
+.inicio p {
+    font-size: 1.5em;
+}
+
+.procesadores {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    background-color: rgba(38, 38, 38, 0.5);
+    height: 300px;
+}
+
+.procesador {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.procesador img {
+    width: 150px;
+    height: auto;
+    border-radius: 12px;
+    transition: width 0.5s ease-in-out;
+}
+
+.procesador img:hover {
+    width: 200px;
+    height: auto;
+}
+
+.procesador p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.info {
+    text-align: center;
+
+}
+
+.letter-ryzen {
+    background: linear-gradient(45deg, #ff9011, #fc9f2f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Oswald';
+    font-weight: bold;
+}
+
+.letter-intel {
+    background: linear-gradient(45deg, #0071c5, rgb(146, 59, 245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Oswald';
+    font-weight: bold;
+}
+
+nav {
+    background-color: #000121;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.7s ease;
+    border-radius: 12px;
+    margin: 2px;
+}
+
+nav a:hover {
+    background-color: #030669;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: #000121;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}

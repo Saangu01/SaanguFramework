@@ -1,0 +1,106 @@
+body {
+    background-image: url('https://c1.wallpaperflare.com/path/603/151/753/green-neon-night-photography-night-time-2cdf3747488c5436c7939f5b658b3103.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#dvd-image {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.titulo {
+    background-color: #cda6e7;
+    color: #000;
+    text-align: center;
+    float: left;
+    max-width: 760px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid #000;
+    padding: 5px;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+.marquee span {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%)
+    }
+}
+
+
+.info {
+    background-color: #cda6e7;
+    color: #000;
+    text-align: right;
+    float: inline-start;
+    max-width: 790px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid #5eb196;
+}
+
+
+.respiracion {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20%;
+    color: #000;
+    animation: giro3d 10s infinite linear;
+    transform-style: preserve-3d;
+}
+
+@keyframes giro3d {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
